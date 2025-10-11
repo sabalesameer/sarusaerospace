@@ -50,7 +50,7 @@ function Navbar() {
     { name: 'Product', path: '/product' },
     { name: 'DroneCare', path: '/DroneCare'},
     { name: 'Contact', path: '/Contact'},
-    { name: 'Trening', path: '/Trening' },
+    { name: 'Training', path: '/Training' },
   ];
 
   return (

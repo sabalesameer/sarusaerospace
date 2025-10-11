@@ -10,7 +10,7 @@ import ProductsPage from './pages/Product';
 import Kisanpage from './pages/KisanDrone'
 import DroneCare from './pages/DroneCare';
 import ContactUs from './pages/Contact';
-import Trening from './pages/Trening';
+import Trening from './pages/training';
 
 
 function App() {
