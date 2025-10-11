@@ -7,7 +7,7 @@ import Trening3 from '../assets/training3.png'
 import { CheckCircle } from "lucide-react";
 
 
-function Trening() {
+function Training() {
   return (
     <div className="bg-gray-300 font-[Montserrat] text-[#22253a]">
 
@@ -202,4 +202,4 @@ function Trening() {
   )
 }
 
-export default Trening
+export default Training
