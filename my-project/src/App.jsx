@@ -11,6 +11,7 @@ import Kisanpage from './pages/KisanDrone'
 import DroneCare from './pages/DroneCare';
 import ContactUs from './pages/Contact';
 import Trening from './pages/training';
+import Location from "./components/Location.jsx";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/DroneCare' element={<DroneCare/>}/>
         <Route path='/Contact' element={<ContactUs/>}/>
         <Route path='/training' element={<Trening/>}/>
+        <Route path='/Location' element={<Location/>}/>
       </Routes>
       <Footer/>
     </Router>

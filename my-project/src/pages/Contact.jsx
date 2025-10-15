@@ -4,6 +4,8 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa";
 
+import Location from "../components/Location.jsx";
+
 // Import images
 import generalQueryImg from "../assets/generalquery.png";
 import dealershipImg from "../assets/dealership.png";
@@ -53,6 +55,8 @@ function ContactUs() {
       setLoading(false);
     }
   };
+
+
 
   return (
     <div className="bg-gray-50 min-h-screen backdrop-blur-md">
@@ -237,7 +241,7 @@ function ContactUs() {
               type="submit"
               disabled={loading}
               className={`${
-                loading ? "bg-gray-400" : "bg-blue-600 hover:bg-blue-700"
+                loading ? "bg-gray-400" : "bg-blue-600 hover:bg-amber-400 outline-2 outline-amber-400 outline-offset-4 hover:outline-blue-600 transform hover:scale-105 duration-300"
               } text-white py-2 px-6 rounded transition`}
             >
               {loading ? "Sending..." : "Submit"}
@@ -245,6 +249,9 @@ function ContactUs() {
           </div>
         </form>
       </div>
+
+      {/* ================= MAP ================== */}
+      <Location />
     </div>
   );
 }
