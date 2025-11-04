@@ -89,7 +89,7 @@ const Footer = () => {
           {/* Left Links */}
           <div className="flex gap-6 font-semibold">
             <a href="#">Who We Are</a>
-            <a href="#">Contact Us</a>
+            <a href="/contact">Contact Us</a>
           </div>
 
           {/* Right Links */}
@@ -117,19 +117,19 @@ const Footer = () => {
 
           {/* Social Icons */}
           <div className="flex justify-end space-x-4 text-lg">
-            <a href="#">
+            <a href="https://www.facebook.com/sarus.aerospac">
               <FaFacebookF />
             </a>
-            <a href="https://www.instagram.com/sarus_aerospace/?hl=en" target='_blank'>
+            <a href="https://www.instagram.com/sarus_aerospace/" target='_blank'>
               <FaInstagram />
             </a>
             <a href="#">
               <FaTwitter />
             </a>
-            <a href="https://www.linkedin.com/posts/sarus-aerospace_geosmartindia-sarusaerospace-innovationinspace-activity-7273630652913041408-Ilc5/" target='_blank'>
+            <a href="https://www.linkedin.com/company/sarus-aerospace/posts/?feedView=all" target='_blank'>
               <FaLinkedinIn />
             </a>
-            <a href="https://www.youtube.com/channel/UC9rXGl28HaTqEpK_fhNNzbQ" target='_blank'>
+            <a href="https://www.youtube.com/@sarusaerospace2742" target='_blank'>
               <FaYoutube />
             </a>
           </div>

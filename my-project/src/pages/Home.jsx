@@ -13,6 +13,8 @@ import SURVEILLANCe from '../assets/SURVEILLANCE.png'
 import PERFORMANCe from '../assets/PERFORMANCE.png'
 import { useNavigate } from 'react-router-dom';
 
+
+
 const drones = [
   {
     title: "SHOURYA",

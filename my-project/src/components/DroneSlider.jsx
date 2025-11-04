@@ -4,6 +4,8 @@ import Product1 from "../assets/Torna1.png";
 import Product3 from "../assets/shourya1-removebg-preview.png";
 import Product2 from "../assets/KISAN.png";
 import { useNavigate } from 'react-router-dom';
+import Anmouncement from "../assets/announcement.mp4";
+
 
 
 const drones = [
@@ -153,7 +155,26 @@ return (
         </span>
       ))}
     </div>
+
+    {/* announcement section */}
+      {/* Announcement Section (Bottom Left Transparent Box) */}
+<div className=" bottom-6 right-6  backdrop-blur-md border border-white/40 shadow-lg rounded-xl p-2 md:p-6 flex items-center hover:scale-105 transition-transform duration-300 fixed animate-bounce" style={{
+    background: "linear-gradient(135deg, #FF9933, #FFFFFF, #138808)",
+  }}>
+  <div className="w-68 h-96 overflow-hidden ">
+      <video
+        src={Anmouncement}
+        autoPlay
+        loop
+        muted
+        className="w-full h-full "
+      ></video>
+  </div>
+</div>
+
   </section>
+
+
 );
 
 }
