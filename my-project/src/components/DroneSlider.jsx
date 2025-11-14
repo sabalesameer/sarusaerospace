@@ -4,7 +4,7 @@ import Product1 from "../assets/Torna1.png";
 import Product3 from "../assets/shourya1-removebg-preview.png";
 import Product2 from "../assets/KISAN.png";
 import { useNavigate } from 'react-router-dom';
-import Anmouncement from "../assets/announcement.mp4";
+import AnnouncementImage from "../assets/BTS.jpg";
 
 
 
@@ -156,21 +156,18 @@ return (
       ))}
     </div>
 
-    {/* announcement section */}
+
       {/* Announcement Section (Bottom Left Transparent Box) */}
-<div className=" bottom-6 right-6  backdrop-blur-md border border-white/40 shadow-lg rounded-xl p-2 md:p-6 flex items-center hover:scale-105 transition-transform duration-300 fixed animate-bounce" style={{
-    background: "linear-gradient(135deg, #FF9933, #FFFFFF, #138808)",
-  }}>
-  <div className="w-68 h-96 overflow-hidden ">
-      <video
-        src={Anmouncement}
-        autoPlay
-        loop
-        muted
-        className="w-full h-full "
-      ></video>
-  </div>
-</div>
+    <div className="fixed bottom-6 right-6 backdrop-blur-xl outline-2 outline-gray-800/50 outline-offset-4 shadow-2xl rounded-2xl overflow-hidden hover:shadow-white/20 hover:scale-105 transition-all duration-300 animate-pulse">
+      <div className="w-64 h-80 md:w-80 md:h-96 overflow-hidden rounded-2xl">
+        <img
+          src={AnnouncementImage}
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
 
   </section>
 
