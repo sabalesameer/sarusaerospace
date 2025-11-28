@@ -158,7 +158,7 @@ return (
 
 
       {/* Announcement Section (Bottom Left Transparent Box) */}
-    <div className="fixed bottom-6 right-6 backdrop-blur-xl outline-2 outline-gray-800/50 outline-offset-4 shadow-2xl rounded-2xl overflow-hidden hover:shadow-white/20 hover:scale-105 transition-all duration-300 animate-pulse">
+    {/* <div className="fixed bottom-6 right-6 backdrop-blur-xl outline-2 outline-gray-800/50 outline-offset-4 shadow-2xl rounded-2xl overflow-hidden hover:shadow-white/20 hover:scale-105 transition-all duration-300 animate-pulse">
       <div className="w-64 h-80 md:w-80 md:h-96 overflow-hidden rounded-2xl">
         <img
           src={AnnouncementImage}
@@ -166,7 +166,7 @@ return (
           className="w-full h-full object-cover"
         />
       </div>
-    </div>
+    </div> */}
 
 
   </section>
